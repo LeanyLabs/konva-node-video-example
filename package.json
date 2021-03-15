@@ -1,0 +1,31 @@
+{
+  "name": "konva-node-video-example",
+  "version": "1.0.0",
+  "description": "Sample application that generates video in Node.JS using Konva",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "clear": "rm -rf ./out/*.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeanyLabs/konva-node-video-example.git"
+  },
+  "keywords": [
+    "konva",
+    "node",
+    "video"
+  ],
+  "author": "LeanyLabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeanyLabs/konva-node-video-example/issues"
+  },
+  "homepage": "https://github.com/LeanyLabs/konva-node-video-example#readme",
+  "dependencies": {
+    "canvas": "^2.7.0",
+    "execa": "^5.0.0",
+    "konva": "^7.2.5",
+    "konva-node": "^0.11.2"
+  }
+}
