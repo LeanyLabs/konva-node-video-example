@@ -59,6 +59,8 @@ async function createVideo({ fps, outputDir, output }) {
       `frame-%0${frameLength}d.png`,
       "-c:v",
       "libx264",
+      "-pix_fmt",
+      "yuv420p",
       output,
     ],
     { cwd: outputDir }
